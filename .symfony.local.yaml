@@ -1,0 +1,3 @@
+workers:
+  oro_message_queue:
+    cmd: ['symfony', 'run', '-d', '--watch=src', 'php', 'bin/console', 'oro:message-queue:consume', '-vv']
